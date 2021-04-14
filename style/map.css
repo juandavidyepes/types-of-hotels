@@ -1,0 +1,106 @@
+.map {
+  background-image: url('../assets/map.png');
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: left top;
+  width: 100%;
+  min-height: 100vh;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.place {
+  background-image: url('../assets/Component 1 – 577.png');
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 42px;
+  height: 55px;
+  outline: none;
+  border: 0;
+  position: absolute;
+}
+
+.place:hover {
+  background-image: url('../assets/Component 1 – 577 (Hover State).png');
+}
+
+.CANWest {
+  top: 170px;
+  left: 230px;
+}
+
+.CANEast {
+  top: 200px;
+  left: 435px;
+}
+
+.USA {
+  top: 268px;
+  left: 300px;
+}
+
+.MEX {
+  top: 345px;
+  left: 329px;
+}
+
+.COL {
+  top: 417px;
+  left: 429px;
+}
+
+.BRA {
+  top: 483px;
+  left: 533px;
+}
+
+.ARG {
+  top: 591px;
+  left: 447px;
+}
+
+.ENG {
+  top: 156px;
+  left: 739px;
+}
+
+.RUS {
+  top: 174px;
+  left: 803px;
+}
+
+.ESP {
+  top: 266px;
+  left: 667px;
+}
+
+.GRE {
+  top: 256px;
+  left: 760px;
+}
+
+.SEN {
+  top: 362px;
+  left: 634px;
+}
+
+.SAF {
+  top: 547px;
+  left: 760px;
+}
+
+.UAE {
+  top: 334px;
+  left: 878px;
+}
+
+.CHI {
+  top: 266px;
+  left: 1087px;
+}
+
+.AUS {
+  top: 564px;
+  left: 1174px;
+}

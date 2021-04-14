@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(
+    225deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(204, 207, 219, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+  /* overflow: hidden; */
+}
+
+.logo {
+  position: absolute;
+  transform: translate(80px, -33px);
+  transition: transform 0.4s;
+}
+
+.startFirst {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.startBtn {
+  background-image: url('../assets/Component 8 – 1.png');
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 582.1px;
+  height: 582.1px;
+  border: 0;
+  transition: background-image 0.4s, opacity 0.2s;
+  outline: none;
+  margin-left: 10%;
+}
+
+.startBtn:hover {
+  background-image: url('../assets/Component 8 – 1 (Hover State).png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wave {
+  position: absolute;
+  transform: translate(50vw, -20vh);
+  transition: transform 0.4s;
+}
+
+.startSecond {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.typesBtn {
+  background: url('../assets/Group 10.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 848px;
+  height: 118px;
+  border: 0;
+  transition: background-image 0.4s, transform 0.4s;
+  outline: none;
+  margin: 0 auto 0;
+}
+
+.typesBtn:hover {
+  background: url('../assets/Component 2 – 1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.waveClear {
+  position: absolute;
+  transform: translate(22vw, 100vh);
+  transition: transform 0.4s, opacity 0.4s;
+  z-index: -1;
+}
