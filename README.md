@@ -1,4 +1,4 @@
-# Typer of hotels
+# Types of hotels
 
 Frontend web app to learn types of hotels.
 
