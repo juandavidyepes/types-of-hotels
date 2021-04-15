@@ -15,7 +15,7 @@ function firstStep() {
 
   function showBtn() {
     startBtn.style.display = 'none';
-    wave.style.transform = 'translate(120vw, -20vh)';
+    wave.style.transform = 'translate(50vw, 0)';
     clearWave.style.transform = 'translate(-430px, -50vh)';
     typesBtn.style.transform = 'translate(0, -85vh)';
     setTimeout(() => {

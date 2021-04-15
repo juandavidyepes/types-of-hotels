@@ -39,6 +39,7 @@ body {
   transition: background-image 0.4s, opacity 0.2s;
   outline: none;
   margin-left: 10%;
+  z-index: +1;
 }
 
 .startBtn:hover {
@@ -49,7 +50,8 @@ body {
 
 .wave {
   position: absolute;
-  transform: translate(50vw, -20vh);
+  top: -40vh;
+  left: 50vw;
   transition: transform 0.4s;
 }
 
@@ -69,6 +71,7 @@ body {
   transition: background-image 0.4s, transform 0.4s;
   outline: none;
   margin: 0 auto 0;
+  z-index: +1;
 }
 
 .typesBtn:hover {

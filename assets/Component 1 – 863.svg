@@ -1,0 +1,6 @@
+<svg id="Component_1_863" data-name="Component 1 – 863" xmlns="http://www.w3.org/2000/svg" width="42" height="55" viewBox="0 0 42 55">
+  <ellipse id="sombra" cx="13" cy="3" rx="13" ry="3" transform="translate(8 49)"/>
+  <circle id="Ellipse_4" data-name="Ellipse 4" cx="21" cy="21" r="21" fill="#005aeb"/>
+  <path id="icon_edif" d="M269.956-213.863l-.524-1.057a.606.606,0,0,0-.543-.337h-1.073v-16.028h-5.045v-6.07H248.5v22.1H247.43a.606.606,0,0,0-.543.337l-.524,1.057a.6.6,0,0,0,.537.866h22.518A.6.6,0,0,0,269.956-213.863ZM254.7-218.87h-3.114v-3.114H254.7Zm0-6.149h-3.114v-3.114H254.7Zm0-6.148h-3.114v-3.114H254.7Zm5.025,15.582h-3.114v-6.4h3.114Zm0-9.433h-3.114v-3.114h3.114Zm0-6.148h-3.114v-3.114h3.114Zm5.006,12.3h-3.114v-3.114h3.114Zm0-6.149h-3.114v-3.114h3.114Z" transform="translate(-237.29 246.124)" fill="#fff"/>
+  <path id="Polygon_1" data-name="Polygon 1" d="M9.4,4.558a3,3,0,0,1,5.209,0l6.83,11.953A3,3,0,0,1,18.83,21H5.17a3,3,0,0,1-2.6-4.488Z" transform="translate(33 55) rotate(180)" fill="#005aeb"/>
+</svg>

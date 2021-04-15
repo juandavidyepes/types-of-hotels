@@ -1,0 +1,63 @@
+@font-face {
+  font-family: Sancoale;
+  src: url('../assets/Sancoale Softened.ttf') format('truetype');
+}
+
+.card {
+  position: absolute;
+  top: 422px;
+  right: 5.6vw;
+  margin: 0 0 0 auto;
+  width: 514px;
+  height: 160px;
+  background-color: white;
+  padding: 15.5px;
+  z-index: +1;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-between;
+  transition: transform 0.4s;
+}
+
+.cardInfo {
+  position: absolute;
+  width: 541.5px;
+  height: 541.5px;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+
+.card .title {
+  font-family: Sancoale;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.card .cardImg {
+  width: 526px;
+  height: 293px;
+  object-fit: cover;
+  margin: 10px 0;
+  display: none;
+}
+
+.card .arrowBtn {
+  background: url('../assets/Component\ 3\ –\ 106.svg');
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 0;
+  outline: none;
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  margin: 0 15.5px 0 0;
+}
+
+.card button:hover {
+  background: url('../assets/Component\ 3\ –\ 106hover.svg');
+}
+
+.card .textCard {
+  display: none;
+}
