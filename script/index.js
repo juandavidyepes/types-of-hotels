@@ -6,7 +6,6 @@ const clearWave = document.querySelector('.waveClear');
 const typesBtn = document.querySelector('.typesBtn');
 
 function firstStep() {
-  console.log('holi');
   startBtn.style.opacity = '0';
   logo.style.transform = 'translate(80px, 32.45px)';
   setTimeout(() => {

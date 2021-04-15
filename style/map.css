@@ -3,6 +3,7 @@
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: left top;
+  background-size: 100% 100%;
   width: 100%;
   min-height: 100vh;
   opacity: 0;
@@ -26,81 +27,81 @@
 }
 
 .CANWest {
-  top: 170px;
-  left: 230px;
+  top: 23vh;
+  left: 16vw;
 }
 
 .CANEast {
-  top: 200px;
-  left: 435px;
+  top: 27vh;
+  left: 29vw;
 }
 
 .USA {
-  top: 268px;
-  left: 300px;
+  top: 36vh;
+  left: 20vw;
 }
 
 .MEX {
-  top: 345px;
-  left: 329px;
+  top: 47vh;
+  left: 22.5vw;
 }
 
 .COL {
-  top: 417px;
-  left: 429px;
+  top: 56vh;
+  left: 29vw;
 }
 
 .BRA {
-  top: 483px;
-  left: 533px;
+  top: 65vh;
+  left: 36vw;
 }
 
 .ARG {
-  top: 591px;
-  left: 447px;
+  top: 80vh;
+  left: 30vw;
 }
 
 .ENG {
-  top: 156px;
-  left: 739px;
+  top: 22vh;
+  left: 50vw;
 }
 
 .RUS {
-  top: 174px;
-  left: 803px;
+  top: 24vh;
+  left: 55vw;
 }
 
 .ESP {
-  top: 266px;
-  left: 667px;
+  top: 36.5vh;
+  left: 45vw;
 }
 
 .GRE {
-  top: 256px;
-  left: 760px;
+  top: 35vh;
+  left: 51vw;
 }
 
 .SEN {
-  top: 362px;
-  left: 634px;
+  top: 48vh;
+  left: 43vw;
 }
 
 .SAF {
-  top: 547px;
-  left: 760px;
+  top: 74vh;
+  left: 52vw;
 }
 
 .UAE {
-  top: 334px;
-  left: 878px;
+  top: 45vh;
+  left: 59.5vw;
 }
 
 .CHI {
-  top: 266px;
-  left: 1087px;
+  top: 36vh;
+  left: 73vw;
 }
 
 .AUS {
-  top: 564px;
-  left: 1174px;
+  top: 76vh;
+  left: 81vw;
 }

@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   background: linear-gradient(
     225deg,
@@ -50,9 +54,15 @@ body {
 
 .wave {
   position: absolute;
-  top: -40vh;
+  top: -20vh;
   left: 50vw;
   transition: transform 0.4s;
+}
+
+@media only screen and (max-height: 730px) {
+  .wave {
+    top: -40vh;
+  }
 }
 
 .startSecond {
