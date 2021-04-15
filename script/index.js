@@ -4,6 +4,16 @@ const logo = document.querySelector('.logo');
 const wave = document.querySelector('.wave');
 const clearWave = document.querySelector('.waveClear');
 const typesBtn = document.querySelector('.typesBtn');
+const client = document.querySelector('.client');
+
+function begin() {
+  setTimeout(() => {
+    client.style.transform = 'translate(-50vw, 0)';
+    startBtn.style.opacity = '1';
+  }, 2000);
+}
+
+begin();
 
 function firstStep() {
   startBtn.style.opacity = '0';
